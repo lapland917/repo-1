@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"微软雅黑";
+}
+
+.header{
+    height: 100px;
+    /* background-color:black; */
+    box-shadow: 0px -1px 20px rgba(2, 128, 212,0.5);
+}
+
+.header-01{
+    width: 1160px;height: 60px;
+    /* background-color: blue; */
+    margin: 0px auto;
+    padding: 20px 0;
+}
+
+.header-nav{
+    width: 1160px;height: 60px;
+    /* background-color: blueviolet; */
+   
+}
+
+.header-nav a{
+    width: 1160px;height: 60px;
+    /* background-color: blueviolet; */
+    text-decoration: none;
+} 
+.header-nav>a>img{
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.header-nav span{
+    color: rgb(2, 128, 212);
+    font-weight: bold;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.nav{
+    float: right;
+    list-style-type: none;
+    height: 60px;
+    text-align: center;
+}
+
+.nav li{
+    float: left;
+    height: 60px;
+    width: 130px;
+    line-height: 60px;
+    
+}
+
+.nav>li>a{
+    text-decoration: none;
+    color: rgb(112,112,112);
+    font-size: 17px;
+}
+
+.nav li:hover{
+    background-color:rgba(2, 128, 212,0.4);
+    border-radius: 6px;
+}
+
+.main{
+   width: 1160px;
+   margin: 0 auto;
+   margin-top: 20px;
+}
+
+.main-image{
+    width:1160px;
+    height: 626px;
+    background-image: url(./img/background.jpg);
+    border-radius: 10px;
+}
+
+ .footer{
+    width: 1160px;
+    /* background-color: red; */
+    margin: 0 auto;
+ }
+ .footer-nav{
+     width:608px;
+     margin: 0 auto;
+ }
+
+ .footer-nav ul{
+     list-style-type: none;
+     margin-top: 23px;
+     font-size: 14px;
+}
+
+.footer-nav li{
+    float: left;
+    width: 150px;
+    text-align: center;
+   
+}
+
+.footer p{
+    margin-top: 38px;
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(112,112,112);
+}
+
+.footer-nav::after{
+    content:'';
+    clear:both;
+    display:block;
+}
+
+.footer-nav>ul a{
+    text-decoration: none;
+    color: rgb(112,112,112);
+}
+
+.footer-nav>ul a:hover{
+    color: rgb(2, 128, 212);  
+}
