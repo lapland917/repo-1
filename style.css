@@ -126,24 +126,15 @@
 }
 
 /* 移动端的CSS代码 */
-.move{
+.app{
     text-align: center;
-    font-weight: bold;
 }
-
-.app-nav::after{
-    content:'';
-    clear:both;
-    display: block;
-}
-
-.app-nav>img{
-    vertical-align: middle;
-}
-
-.app-nav>h1{
-    font-size: 1.5em;
+.app>h1{
+    font-size: 0.8em;
     text-align: center;
-    color: rgb(2, 128, 212);
 }
 
+.app img{
+    max-width: 50%;
+    opacity:0.8; 
+}
