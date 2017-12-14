@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./app-style.css">
+</head>
+<body>
+<div class="app">
+    <div class="app-header clearfix"> 
+        <div class="app-logo" clearfix>
+            <div class="app-logo-1">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <span>中检康健(北京)健康管理有限公司</span>
+        </div>
+        <div class="app-btn" id="xx">
+            <span>&#xe685;</span>
+        </div>  
+    </div>
+    
+    <div class="app-nav clearfix">
+        <ul id="yy">
+            <li>首页</li>
+            <li>公司及产品展示</li>
+            <li>合作机构</li>
+            <li>联系我们</li>
+        </ul>
+    </div>
+    <!-- 点击事件 -->
+    <script>
+        xx.onclick = function(){
+            if(yy.style.display === 'block'){
+              yy.style.display = 'none' 
+            }else{
+              yy.style.display = 'block'
+            }
+        }
+    </script>
+    <div class="app-main">
+        <div class="banna">
+            <div class="banna-img"></div>
+        </div>
+    </div>
+    <div class="app-footer">
+        <ul class="clearfix">
+            <li>用户注册</li>
+            <li>密码找回</li>
+            <li>产品验真</li>
+            <li>加入我们</li>
+        </ul>
+        <hr>
+        <p>备案号ICP备xxxxxxxx号</p>
+    </div>
+</div>
+
+</body>
+</html>
